@@ -1,0 +1,353 @@
+{
+  "contactInfo": {
+    "name": "DANIEL YETESHA",
+    "title": "Data Analyst & Scientist",
+    "phone": "+251-965-570-891",
+    "email": "danielyetesha2010@gmail.com",
+    "location": "Addis Ababa, Ethiopia",
+    "website": "daniel.bdsoftwares.com",
+    "aboutMe": "Data Analyst & Scientist with over 4+ years of experience specializing in financial data intelligence, enterprise analytics, and data warehouse automation at Bank of Abyssinia. I transform raw numbers into strategic clarity, building automated analytics tools, financial intelligence dashboards, and predictive models that streamline infrastructure and empower executive decision-making.",
+    "languages": [
+      { "name": "Amharic", "proficiency": "Native / Full Professional" },
+      { "name": "English", "proficiency": "Professional Working Proficiency" }
+    ],
+    "expertisePillars": [
+      "Strong presentation and executive reporting",
+      "Cross-functional teamwork & leadership",
+      "Fast learner & adaptability",
+      "ETL Automation & Data Modeling",
+      "Predictive Modeling & Statistical Analysis"
+    ]
+  },
+  "workExperiences": [
+    {
+      "id": "boa-data-analyst",
+      "indexNumber": "01",
+      "title": "DATA INSIGHTS & ANALYTICS SPECIALIST",
+      "company": "Bank of Abyssinia",
+      "location": "Addis Ababa, Ethiopia",
+      "duration": "Feb 2023 - Present",
+      "isCurrent": true,
+      "logoIcon": "Building2",
+      "imageKey": "boaDashboardImg",
+      "summary": "Transforming multi-million row financial transaction data into executive strategic clarity. Architected automated PowerPoint report generators, Excel/Outlook distribution systems, SQL analytics desktop tools, Power BI & Tableau executive dashboards, React web analytics, and database migration ETL tools.",
+      "responsibilities": [
+        "Develop end-to-end reporting automation connecting Oracle Database to PowerPoint and Excel pipelines",
+        "Design and deploy executive Power BI & Tableau dashboards for senior management KPI tracking",
+        "Build desktop SQL analytics and cross-database ETL tools to simplify complex queries and data migration",
+        "Automate daily and weekly financial report extraction, formatting, and Outlook email delivery",
+        "Analyze data warehouse tables using advanced SQL and Python to deliver actionable strategic insights"
+      ],
+      "skills": ["Power BI", "Python", "SQL", "Tableau", "Oracle Database", "ETL Automation", "pandas", "python-pptx", "DAX"],
+      "whatIBuilt": [
+        "Automated Management PowerPoint Report Generator connecting to Oracle Database",
+        "Automated Excel Reporting & Outlook Email Distribution System with PyWin32",
+        "SQL Analytics Tool for Excel & Live Oracle Database Integration (desktop GUI in Tkinter)",
+        "Executive Business Intelligence Dashboards in Tableau & Power BI with DAX measures",
+        "Enterprise Web Analytics Dashboard Platform using React.js and REST APIs",
+        "Desktop Database Migration & High-Volume ETL Application using SQLAlchemy and Python"
+      ],
+      "whatILearned": [
+        "Oracle Database connectivity (oracledb/cx_Oracle) and high-concurrency SQL query optimization",
+        "Programmatic PowerPoint presentation generation and custom layout automation with python-pptx",
+        "Advanced Excel styling and automated distribution via PyWin32 Outlook scripting",
+        "Executive storytelling: translating multi-million row financial tables into decision-ready insights",
+        "Data warehouse dimensional star-schema modeling and DAX measure optimization"
+      ],
+      "whatIAchieved": [
+        "Eliminated 90%+ of manual report preparation time for daily and weekly executive presentations",
+        "Automated 20+ hours/week of repetitive Excel and PowerPoint reporting workflows across departments",
+        "Achieved 99.8% data accuracy and automated email delivery across multi-branch financial pipelines",
+        "Built enterprise analytics web platform prior to Tableau adoption, modernizing management monitoring"
+      ],
+      "tasksDone": [
+        "Extracted, cleansed, and modeled Oracle Database data using advanced T-SQL/PL-SQL queries",
+        "Authored Python scripts using pandas, openpyxl, xlsxwriter, and python-pptx for automated reporting",
+        "Configured PyWin32 COM objects to automate Microsoft Outlook email dispatch with attached reports",
+        "Created interactive Tkinter desktop utilities for cross-database SQL querying and ETL migration"
+      ]
+    },
+    {
+      "id": "astu-developer",
+      "indexNumber": "02",
+      "title": "SOFTWARE & ERP DEVELOPER",
+      "company": "Adama Science and Technology University",
+      "location": "Adama, Ethiopia",
+      "duration": "Nov 2022 - Dec 2022",
+      "logoIcon": "GraduationCap",
+      "imageKey": "boaPythonImg",
+      "summary": "Maintained and optimized university enterprise web systems, developing ERP administrative modules and database infrastructure for seamless academic operations.",
+      "responsibilities": [
+        "Manage and maintain the university's official website to ensure optimal performance and security",
+        "Develop and implement ERP system modules to streamline university administrative workflows",
+        "Collaborate with IT team members to resolve backend MySQL database bottlenecks"
+      ],
+      "skills": ["Web Development", "ERP Systems", "PHP", "JavaScript", "MySQL", "System Admin"],
+      "whatIBuilt": [
+        "University Enterprise ERP modules for administrative resource planning",
+        "Official university web portal features & security patches",
+        "MySQL database relational schemas for academic record management",
+        "Staff user support portal and documentation wiki"
+      ],
+      "whatILearned": [
+        "Full-stack web application development in high-concurrency educational settings",
+        "Relational MySQL query optimization and integrity enforcement",
+        "Agile sprint execution and cross-functional user support methodologies"
+      ],
+      "whatIAchieved": [
+        "Optimized page load speed and backend query execution by 35%",
+        "Eliminated system downtime during peak student registration periods",
+        "Successfully onboarded and trained 20+ administrative staff on new ERP modules"
+      ],
+      "tasksDone": [
+        "Built PHP and JavaScript backend/frontend components for administrative workflows",
+        "Resolved critical MySQL database performance bottlenecks and indexed core tables",
+        "Authored comprehensive end-user technical manuals and system documentation"
+      ]
+    }
+  ],
+  "educationList": [
+    {
+      "id": "msc-pm",
+      "degree": "MSc in Project Management",
+      "institution": "Addis Ababa University",
+      "location": "Addis Ababa, Ethiopia",
+      "duration": "Sep 2023 - 2026 (Candidate)",
+      "isCurrent": true,
+      "description": "Advanced postgraduate studies in project management methodologies, strategic planning, resource allocation, risk management, and organizational leadership (EQF Level 7).",
+      "thesisTitle": "The effect of AI based code generation tool on software development project productivity",
+      "logoIcon": "BookOpen",
+      "achievements": [
+        "EQF Level 7 Advanced Qualification",
+        "Research focus on AI Productivity Tools in Software Development",
+        "Strategic Risk & Portfolio Management"
+      ]
+    },
+    {
+      "id": "bsc-cs",
+      "degree": "BSc in Computer Science",
+      "institution": "University of Gondar",
+      "location": "Gondar, Ethiopia",
+      "duration": "Sep 2018 - Sep 2022",
+      "gpa": "3.89 / 4.0",
+      "description": "Comprehensive 4-year undergraduate study of computer science fundamentals including advanced programming, data structures, algorithms, database management systems, and software engineering (EQF Level 6).",
+      "logoIcon": "Award",
+      "achievements": [
+        "Graduated with High Distinction (GPA: 3.89/4.0)",
+        "Excellence in Programming & Algorithm Design",
+        "Database Systems & Software Architecture Honors"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Business Intelligence & Data Viz",
+      "skills": [
+        { "name": "Power BI & DAX", "level": 95, "rating": 5, "isPrimary": true },
+        { "name": "Tableau Desktop / Server", "level": 92, "rating": 5, "isPrimary": true },
+        { "name": "Interactive Dashboards", "level": 95, "rating": 5, "isPrimary": true },
+        { "name": "Executive Reporting", "level": 90, "rating": 5, "isPrimary": true }
+      ]
+    },
+    {
+      "category": "Data Engineering & Analytics",
+      "skills": [
+        { "name": "Advanced SQL & Oracle DB", "level": 95, "rating": 5, "isPrimary": true },
+        { "name": "Python (pandas, openpyxl, pptx)", "level": 92, "rating": 5, "isPrimary": true },
+        { "name": "ETL & Pipeline Automation", "level": 90, "rating": 5, "isPrimary": true },
+        { "name": "Data Warehouse & Star Schema", "level": 92, "rating": 5, "isPrimary": true }
+      ]
+    },
+    {
+      "category": "Development & Cloud",
+      "skills": [
+        { "name": "Git / GitHub Version Control", "level": 88, "rating": 4 },
+        { "name": "Jupyter Notebooks", "level": 92, "rating": 5 },
+        { "name": "Google Cloud Platform (GCP)", "level": 82, "rating": 4 },
+        { "name": "MySQL & Database Admin", "level": 85, "rating": 4 },
+        { "name": "Web Dev (React / JS / REST)", "level": 85, "rating": 4 }
+      ]
+    },
+    {
+      "category": "Specialized & Soft Skills",
+      "skills": [
+        { "name": "Predictive Modeling & ML", "level": 84, "rating": 4 },
+        { "name": "Project Management Methodology", "level": 90, "rating": 5 },
+        { "name": "Cross-Functional Collaboration", "level": 95, "rating": 5 },
+        { "name": "Technical Mentorship & Training", "level": 90, "rating": 5 }
+      ]
+    }
+  ],
+  "bankProjects": [
+    {
+      "id": "p-1",
+      "title": "Automated Management PowerPoint Report Generator",
+      "category": "Reporting Automation",
+      "description": "Developed an end-to-end reporting automation system that connects to an Oracle Database, extracts business data, performs analysis, and generates professionally designed PowerPoint presentations for weekly and daily management reporting. The application eliminates manual report preparation and ensures reports are generated consistently and accurately.",
+      "tools": ["Python", "Oracle Database", "SQL"],
+      "librariesAndTools": ["oracledb (cx_Oracle)", "pandas", "python-pptx", "openpyxl"],
+      "metrics": "Eliminated manual PowerPoint preparation & standardized executive reporting",
+      "keyOutputs": [
+        "Direct Oracle database connectivity",
+        "Automated data extraction and analysis",
+        "Dynamic charts and tables",
+        "Management-ready PowerPoint generation",
+        "Weekly and daily report automation",
+        "Consistent report formatting"
+      ],
+      "keyFeatures": [
+        "Direct Oracle database connectivity",
+        "Automated data extraction and analysis",
+        "Dynamic charts and tables",
+        "Management-ready PowerPoint generation",
+        "Weekly and daily report automation",
+        "Consistent report formatting"
+      ],
+      "status": "Production",
+      "date": "2023 - Present",
+      "imageKey": "boaPythonImg"
+    },
+    {
+      "id": "p-2",
+      "title": "Automated Excel Reporting & Email Distribution System",
+      "category": "Reporting & Email Automation",
+      "description": "Built an automated reporting solution that retrieves data from Oracle Database, generates both summary and detailed Excel reports with professional formatting, and automatically distributes them to stakeholders via Microsoft Outlook.",
+      "tools": ["Python", "Oracle Database", "SQL", "Microsoft Outlook"],
+      "librariesAndTools": ["pandas", "openpyxl", "xlsxwriter", "oracledb (cx_Oracle)", "PyWin32 (win32com)"],
+      "metrics": "Automated email delivery & saved 15+ hours/week of manual spreadsheet tasks",
+      "keyOutputs": [
+        "Automated database extraction",
+        "Summary and detailed report generation",
+        "Professional Excel formatting",
+        "Automatic Outlook email delivery",
+        "Scheduled reporting",
+        "Reduced manual reporting effort"
+      ],
+      "keyFeatures": [
+        "Automated database extraction",
+        "Summary and detailed report generation",
+        "Professional Excel formatting",
+        "Automatic Outlook email delivery",
+        "Scheduled reporting",
+        "Reduced manual reporting effort"
+      ],
+      "status": "Production",
+      "date": "2023 - Present",
+      "imageKey": "boaDashboardImg"
+    },
+    {
+      "id": "p-3",
+      "title": "SQL Analytics Tool for Excel & Database Integration",
+      "category": "Desktop Analytics Tool",
+      "description": "Designed and developed a desktop analytics application that allows users to execute SQL queries directly on Excel datasets. The tool also supports joining Excel data with live Oracle Database tables and exporting query results into Excel, providing SQL-powered analytics without requiring data import into a database.",
+      "tools": ["Python", "Oracle Database", "SQL"],
+      "librariesAndTools": ["pandas", "oracledb (cx_Oracle)", "openpyxl", "tkinter"],
+      "metrics": "Enabled SQL queries directly on Excel sheets without full database ingestion",
+      "keyOutputs": [
+        "Execute SQL on Excel datasets",
+        "Join Excel data with Oracle Database",
+        "Custom SQL query editor",
+        "Export query results to Excel",
+        "Interactive desktop interface",
+        "Simplified data analysis workflow"
+      ],
+      "keyFeatures": [
+        "Execute SQL on Excel datasets",
+        "Join Excel data with Oracle Database",
+        "Custom SQL query editor",
+        "Export query results to Excel",
+        "Interactive desktop interface",
+        "Simplified data analysis workflow"
+      ],
+      "status": "Production",
+      "date": "2023 - Present",
+      "imageKey": "boaWarehouseImg"
+    },
+    {
+      "id": "p-4",
+      "title": "Business Intelligence Dashboards",
+      "category": "Business Intelligence & BI",
+      "description": "Developed multiple executive and operational dashboards using Tableau and Microsoft Power BI to provide actionable insights into business performance, customer behavior, digital channels, and operational KPIs. Managed dashboard deployment, scheduled data refreshes, and data source administration.",
+      "tools": ["Tableau", "Microsoft Power BI", "Oracle Database", "SQL"],
+      "librariesAndTools": ["Tableau Desktop", "Tableau Server / Tableau Online", "Power BI Desktop", "Power Query", "DAX"],
+      "metrics": "Provided executive visibility into core banking metrics & customer behavior",
+      "keyOutputs": [
+        "Executive dashboards",
+        "KPI monitoring",
+        "Trend analysis",
+        "Customer analytics",
+        "Interactive visualizations",
+        "Automated data refresh scheduling",
+        "Dashboard publishing and administration"
+      ],
+      "keyFeatures": [
+        "Executive dashboards",
+        "KPI monitoring",
+        "Trend analysis",
+        "Customer analytics",
+        "Interactive visualizations",
+        "Automated data refresh scheduling",
+        "Dashboard publishing and administration"
+      ],
+      "status": "Production",
+      "date": "2023 - Present",
+      "imageKey": "boaDashboardImg"
+    },
+    {
+      "id": "p-5",
+      "title": "Enterprise Analytics Dashboard Website",
+      "category": "Web Analytics Platform",
+      "description": "Designed and developed a web-based business analytics platform before the organization adopted Tableau. The application centralized business metrics and interactive visualizations, enabling management to monitor performance and make informed decisions through a modern web interface.",
+      "tools": ["React.js", "JavaScript", "HTML", "CSS", "REST API"],
+      "librariesAndTools": ["React", "Axios", "Chart.js", "React Router"],
+      "metrics": "Centralized web performance metrics prior to enterprise BI software rollout",
+      "keyOutputs": [
+        "Interactive analytics dashboards",
+        "KPI visualization",
+        "Business performance monitoring",
+        "Responsive user interface",
+        "Real-time data presentation",
+        "Management-focused analytics"
+      ],
+      "keyFeatures": [
+        "Interactive analytics dashboards",
+        "KPI visualization",
+        "Business performance monitoring",
+        "Responsive user interface",
+        "Real-time data presentation",
+        "Management-focused analytics"
+      ],
+      "status": "Production",
+      "date": "2023 - Present",
+      "imageKey": "homeWorkspaceImg"
+    },
+    {
+      "id": "p-6",
+      "title": "Database Migration & ETL Application",
+      "category": "Database & ETL Tools",
+      "description": "Developed a desktop ETL application that enables users to migrate data between databases using custom SQL queries. The application allows users to extract, transform, and load data efficiently without writing migration scripts manually.",
+      "tools": ["Python", "Oracle Database", "SQL"],
+      "librariesAndTools": ["oracledb (cx_Oracle)", "pandas", "SQLAlchemy", "tkinter"],
+      "metrics": "Streamlined cross-database data migrations without writing manual scripts",
+      "keyOutputs": [
+        "Custom SQL query execution",
+        "Cross-database data migration",
+        "ETL workflow support",
+        "Data transformation",
+        "User-friendly desktop interface",
+        "High-volume data transfer"
+      ],
+      "keyFeatures": [
+        "Custom SQL query execution",
+        "Cross-database data migration",
+        "ETL workflow support",
+        "Data transformation",
+        "User-friendly desktop interface",
+        "High-volume data transfer"
+      ],
+      "status": "Production",
+      "date": "2023 - Present",
+      "imageKey": "boaWarehouseImg"
+    }
+  ]
+}
