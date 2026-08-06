@@ -68,8 +68,8 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
       </Link>
 
-      {/* Main Navigation Links */}
-      <nav className="flex items-center space-x-2 sm:space-x-4 md:space-x-6">
+      {/* Main Navigation Links (Desktop Only) */}
+      <nav className="hidden md:flex items-center space-x-2 sm:space-x-4 md:space-x-6">
         {navItems.map((item) => {
           const isActive = location.pathname === item.path || (item.path === '/projects' && location.pathname.startsWith('/projects'));
           return (

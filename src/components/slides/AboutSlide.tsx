@@ -10,11 +10,11 @@ interface AboutSlideProps {
 
 export const AboutSlide: React.FC<AboutSlideProps> = ({ theme }) => {
   return (
-    <div className={`relative w-full min-h-[calc(100vh-5rem)] lg:h-[calc(100vh-5rem)] flex flex-col overflow-hidden transition-colors duration-300 ${
+    <div className={`relative w-full min-h-[calc(100vh-5rem)] flex flex-col transition-colors duration-300 ${
       theme === 'dark' ? 'bg-black text-neutral-100' : 'bg-slate-50 text-slate-900'
     }`}>
-      {/* Desktop View Right-Side Portrait Background (Fixed full height of screen/container) */}
-      <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-1/2 h-full z-0 overflow-hidden pointer-events-none">
+      {/* Desktop View Right-Side Portrait Background (Fixed on right half of screen - non-scrollable) */}
+      <div className="hidden lg:block fixed right-0 top-16 sm:top-20 bottom-0 w-1/2 z-0 overflow-hidden pointer-events-none">
         <img
           src={danielPortraitBg}
           alt="Daniel Yetesha"
@@ -25,8 +25,8 @@ export const AboutSlide: React.FC<AboutSlideProps> = ({ theme }) => {
         )}
       </div>
 
-      {/* Main Content Layout Container */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto h-full px-6 sm:px-12 lg:px-16 py-6 sm:py-8 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center overflow-hidden">
+      {/* Main Content Layout Container (Scrollable left column content) */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
         {/* Mobile View Hero Portrait Image */}
         <div className="lg:hidden w-full h-[280px] sm:h-[360px] rounded-3xl overflow-hidden relative shadow-md">
@@ -42,12 +42,12 @@ export const AboutSlide: React.FC<AboutSlideProps> = ({ theme }) => {
           </div>
         </div>
 
-        {/* Left Half: ABOUT Information (Scrollable independently on desktop) */}
+        {/* Left Half: ABOUT Information */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="lg:col-span-7 h-full overflow-hidden lg:pr-6 space-y-8 text-center lg:text-left mx-auto w-full py-4"
+          className="lg:col-span-7 space-y-8 text-center lg:text-left mx-auto w-full py-2 pb-12"
         >
           {/* Header Title with Underline */}
           <div className="space-y-3">

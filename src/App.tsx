@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { ThemeMode } from './types';
 import { Header } from './components/Header';
+import { MobileBottomNav } from './components/MobileBottomNav';
 import { handleDownloadCV } from './utils/downloadCV';
 
 import { HeroSlide } from './components/slides/HeroSlide';
@@ -56,7 +57,7 @@ function MainApp() {
       />
 
       {/* Main Page Area with Router */}
-      <main className="flex-1 pt-16 sm:pt-20">
+      <main className="flex-1 pt-16 sm:pt-20 pb-20 md:pb-0">
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}
@@ -79,6 +80,9 @@ function MainApp() {
           </motion.div>
         </AnimatePresence>
       </main>
+
+      {/* Floating Mobile Bottom Navigation Bar */}
+      <MobileBottomNav theme={theme} />
     </div>
   );
 }

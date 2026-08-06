@@ -1,13 +1,3 @@
-import pdfAsset from '../assets/pdf/daniel_yetesha_cv.pdf';
-
-export const handleDownloadCV = () => {
-  const link = document.createElement('a');
-  link.href = pdfAsset;
-  link.download = 'Daniel_Yetesha_CV.pdf';
-  link.click();
-};
-
-/*
 import jsPDF from 'jspdf';
 import { contactInfo, workExperiences, educationList } from '../data/resumeData';
 
@@ -177,4 +167,3 @@ export const handleDownloadCV = () => {
   // Save the generated PDF directly to the user's browser
   doc.save('Daniel_Yetesha_CV.pdf');
 };
-*/
