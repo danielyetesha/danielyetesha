@@ -37,7 +37,7 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
   const activeProject = bankProjects[activeIndex];
 
   return (
-    <div className={`w-full min-h-[calc(100vh-5rem)] flex flex-col justify-between px-4 sm:px-8 lg:px-16 py-4 sm:py-6 transition-colors duration-300 select-none overflow-y-auto ${theme === 'dark'
+    <div className={`w-full min-h-[calc(100vh-5rem)] flex flex-col justify-between px-4 sm:px-8 lg:px-16 py-4 sm:py-6 transition-colors duration-300 select-none overflow-y-auto overflow-x-hidden ${theme === 'dark'
         ? 'bg-black text-neutral-100'
         : 'bg-slate-50 text-slate-900'
       }`}>

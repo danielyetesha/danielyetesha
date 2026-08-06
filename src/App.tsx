@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { ThemeMode } from './types';
 import { Header } from './components/Header';
@@ -89,8 +89,8 @@ function MainApp() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <MainApp />
-    </BrowserRouter>
+    </HashRouter>
   );
 }

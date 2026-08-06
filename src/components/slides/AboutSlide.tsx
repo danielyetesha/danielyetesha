@@ -52,7 +52,7 @@ export const AboutSlide: React.FC<AboutSlideProps> = ({ theme }) => {
       </div>
 
       {/* Main Content Layout Container (Scrollable left column content) */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start lg:pointer-events-none">
 
         {/* Mobile View Hero Portrait Image */}
         <div
@@ -86,7 +86,7 @@ export const AboutSlide: React.FC<AboutSlideProps> = ({ theme }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="lg:col-span-7 space-y-8 text-center lg:text-left mx-auto w-full py-2 pb-12"
+          className="lg:col-span-7 space-y-8 text-center lg:text-left mx-auto w-full py-2 pb-12 pointer-events-auto"
         >
           {/* Header Title with Underline */}
           <div className="space-y-3">
