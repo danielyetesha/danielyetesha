@@ -37,11 +37,10 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
   const activeProject = bankProjects[activeIndex];
 
   return (
-    <div className={`w-full h-[calc(100vh-5rem)] flex flex-col justify-between px-4 sm:px-8 lg:px-16 py-4 sm:py-6 transition-colors duration-300 select-none overflow-hidden ${
-      theme === 'dark'
+    <div className={`w-full min-h-[calc(100vh-5rem)] flex flex-col justify-between px-4 sm:px-8 lg:px-16 py-4 sm:py-6 transition-colors duration-300 select-none overflow-y-auto ${theme === 'dark'
         ? 'bg-black text-neutral-100'
         : 'bg-slate-50 text-slate-900'
-    }`}>
+      }`}>
       {/* 3D Carousel Container */}
       <div
         onMouseEnter={() => setIsPlaying(false)}
@@ -92,15 +91,14 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
                     mass: 0.8,
                   }}
                   style={{ transformStyle: 'preserve-3d' }}
-                  className={`absolute cursor-pointer w-[260px] sm:w-[340px] md:w-[400px] aspect-[4/3] rounded-3xl overflow-hidden shadow-md transition-shadow duration-300 group ${
-                    isActive
+                  className={`absolute cursor-pointer w-[260px] sm:w-[340px] md:w-[400px] aspect-[4/3] rounded-3xl overflow-hidden shadow-md transition-shadow duration-300 group ${isActive
                       ? theme === 'dark'
                         ? 'shadow-xl bg-[#141414]'
                         : 'shadow-lg bg-white'
                       : theme === 'dark'
                         ? 'filter brightness-75 bg-[#101010]'
                         : 'filter brightness-90 bg-slate-100 shadow-sm'
-                  }`}
+                    }`}
                 >
                   <img
                     src={project.imageUrl}
@@ -109,19 +107,17 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
                   />
 
                   {/* Gradient Overlay */}
-                  <div className={`absolute inset-0 bg-gradient-to-t ${
-                    theme === 'dark'
+                  <div className={`absolute inset-0 bg-gradient-to-t ${theme === 'dark'
                       ? 'from-black via-black/40 to-transparent'
                       : 'from-slate-900/90 via-slate-900/30 to-transparent'
-                  }`} />
+                    }`} />
 
                   {/* Top Category Badge */}
                   <div className="absolute top-3.5 left-3.5 right-3.5 flex justify-between items-center z-10">
-                    <span className={`px-3 py-1 rounded-full text-[10px] sm:text-xs font-mono font-bold ${
-                      theme === 'dark'
+                    <span className={`px-3 py-1 rounded-full text-[10px] sm:text-xs font-mono font-bold ${theme === 'dark'
                         ? 'bg-black/80 text-white'
                         : 'bg-white/90 text-slate-900'
-                    }`}>
+                      }`}>
                       {project.category}
                     </span>
 
@@ -148,11 +144,10 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
           <button
             onClick={handlePrev}
             title="Previous Project"
-            className={`absolute left-0 sm:left-2 z-40 p-3 rounded-full transition-all shadow-md ${
-              theme === 'dark'
+            className={`absolute left-0 sm:left-2 z-40 p-3 rounded-full transition-all shadow-md ${theme === 'dark'
                 ? 'bg-black/80 text-white hover:bg-neutral-800'
                 : 'bg-white/90 text-slate-800 hover:bg-slate-200'
-            }`}
+              }`}
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
@@ -160,11 +155,10 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
           <button
             onClick={handleNext}
             title="Next Project"
-            className={`absolute right-0 sm:right-2 z-40 p-3 rounded-full transition-all shadow-md ${
-              theme === 'dark'
+            className={`absolute right-0 sm:right-2 z-40 p-3 rounded-full transition-all shadow-md ${theme === 'dark'
                 ? 'bg-black/80 text-white hover:bg-neutral-800'
                 : 'bg-white/90 text-slate-800 hover:bg-slate-200'
-            }`}
+              }`}
           >
             <ChevronRight className="w-5 h-5" />
           </button>
@@ -176,20 +170,18 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
             MY PROJECTS
           </h2>
 
-          <p className={`text-xs font-mono uppercase tracking-wider max-w-lg mx-auto ${
-            theme === 'dark' ? 'text-neutral-400' : 'text-slate-500'
-          }`}>
+          <p className={`text-xs font-mono uppercase tracking-wider max-w-lg mx-auto ${theme === 'dark' ? 'text-neutral-400' : 'text-slate-500'
+            }`}>
             DANIEL YETESHA • DATA ANALYST & SCIENTIST (BANK OF ABYSSINIA)
           </p>
 
           <div className="pt-1">
             <button
               onClick={() => navigate(`/projects/${activeProject.id}`)}
-              className={`px-8 py-3 rounded-xl text-xs sm:text-sm font-bold tracking-widest uppercase transition-all duration-200 shadow-sm inline-flex items-center gap-2 ${
-                theme === 'dark'
+              className={`px-8 py-3 rounded-xl text-xs sm:text-sm font-bold tracking-widest uppercase transition-all duration-200 shadow-sm inline-flex items-center gap-2 ${theme === 'dark'
                   ? 'bg-white text-black hover:bg-neutral-200'
                   : 'bg-slate-900 text-white hover:bg-slate-800'
-              }`}
+                }`}
             >
               <Eye className="w-4 h-4" />
               <span>VIEW PROJECT DETAILS</span>
@@ -201,11 +193,10 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
               <button
                 key={idx}
                 onClick={() => setActiveIndex(idx)}
-                className={`transition-all duration-300 rounded-full ${
-                  idx === activeIndex
+                className={`transition-all duration-300 rounded-full ${idx === activeIndex
                     ? theme === 'dark' ? 'w-7 h-1.5 bg-white' : 'w-7 h-1.5 bg-slate-900'
                     : theme === 'dark' ? 'w-1.5 h-1.5 bg-neutral-700 hover:bg-neutral-500' : 'w-1.5 h-1.5 bg-slate-300 hover:bg-slate-400'
-                }`}
+                  }`}
               />
             ))}
           </div>
@@ -213,9 +204,8 @@ export const ProjectsSlide: React.FC<ProjectsSlideProps> = ({ theme }) => {
       </div>
 
       {/* Footer */}
-      <div className={`max-w-5xl mx-auto w-full pt-3 border-t flex flex-wrap items-center justify-between text-xs font-mono ${
-        theme === 'dark' ? 'border-neutral-800/60 text-neutral-500' : 'border-slate-200 text-slate-500'
-      }`}>
+      <div className={`max-w-5xl mx-auto w-full pt-3 border-t flex flex-wrap items-center justify-between text-xs font-mono ${theme === 'dark' ? 'border-neutral-800/60 text-neutral-500' : 'border-slate-200 text-slate-500'
+        }`}>
         <div>
           Showing {activeIndex + 1} of {projectsCount} Bank Projects
         </div>
